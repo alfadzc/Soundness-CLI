@@ -32,7 +32,10 @@ soundnessup update
 
 ### Docker Installation
 You can also build and run the CLI using Docker:
+
 ```
+## 🐳 Docker Installation
+
 # Build the Docker image
 docker compose build
 
@@ -40,19 +43,19 @@ docker compose build
 docker compose run --rm soundness-cli [command]
 
 # Example: Generate a new key pair
-docker compose
+docker compos
 
 ### Manual Installation (from Source)
-
 If you prefer to install from source, you can use Cargo.
 
 **Build and install:**
 Navigate to the `soundness-cli` directory and run:
 
 ```bash
-cargo install --path.
-curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
+cargo install --path .
 ```
+
+curl -sSL https://raw.githubusercontent.com/soundnesslabs/soundness-layer/main/soundnessup/install | bash
 
 ### Testnet Instructions
 Welcome to the Soundness Layer Testnet! Follow these steps to get started with playing ZK games and verifying proofs on-chain.
